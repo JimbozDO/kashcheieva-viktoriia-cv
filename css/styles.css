@@ -1,6 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #bea9a9;
+  background-color: #decaca;
   padding: 40px;
 }
 
@@ -233,7 +233,7 @@ body {
 
 /* sidebar */
 .sidebar {
-  background: #d6caca;
+  background: #d2cdcd;
   width: 640px;
   left: 40px;
   top: 40px;
@@ -275,7 +275,7 @@ body {
 .contacts-number {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #161d2a;
 }
@@ -283,9 +283,9 @@ body {
 .contacts-email {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
-  color: #780fa1;
+  color:  #780fa1;
 }
 
 /* tech-skills-list */
@@ -302,7 +302,7 @@ body {
   padding: 0 0 0 16;
 }
 .skills-list-item {
-  color: #9e62b6;
+  color: #552568;
 }
 .skills-list-text {
   color: #161d2a;
@@ -318,8 +318,26 @@ body {
   color: #161d2a;
 }
 .soft-skills-item {
-  color: #9e62b6;
+  color: #552568;
 }
 .soft-skills-text {
   color: #161d2a;
+}
+
+/* language */
+.language-block{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #161d2a;
+}
+.language-item{
+  color: #552568;
+}
+.language-name{
+  color: #161d2a;
+}
+.language-level{
+  color: #780fa1;
 }

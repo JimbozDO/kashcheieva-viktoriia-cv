@@ -1,13 +1,13 @@
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #323A45;
+  background-color: #323a45;
   padding: 40px;
 }
 
 .wrapper {
   display: flex;
   flex-direction: row-reverse;
-  background: #EDF5F9;
+  background: #edf5f9;
   padding: 40px;
   width: 1200px;
   margin: 0 auto;
@@ -241,7 +241,7 @@ body {
 .my-photo {
   /* margin: 48; */
   width: 354px;
-  height: 354px;
+  /* height: 354px;*/
   left: 40px;
   top: 80px;
 }
@@ -285,7 +285,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  color:  #780fa1;
+  color: #780fa1;
 }
 
 /* tech-skills-list */
@@ -325,19 +325,19 @@ body {
 }
 
 /* language */
-.language-block{
+.language-block {
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 24px;
   color: #000000;
 }
-.language-item{
+.language-item {
   color: #552568;
 }
-.language-name{
+.language-name {
   color: #0f131a;
 }
-.language-level{
+.language-level {
   color: #780fa1;
 }

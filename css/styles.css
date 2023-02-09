@@ -1,17 +1,22 @@
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #323a45;
+  background: linear-gradient(
+    109.6deg,
+    rgb(36, 45, 57) 11.2%,
+    rgb(16, 37, 60) 51.2%,
+    rgb(0, 0, 0) 98.6%
+  );
   padding: 40px;
 }
 
 .wrapper {
   display: flex;
   flex-direction: row-reverse;
-  background: #edf5f9;
+  background: #e4f1fe;
   padding: 40px;
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
-  box-shadow: 4px 6px 8px rgba(112, 205, 239, 0.886);
+  box-shadow: 4px 8px 10px rgba(112, 205, 239, 0.7);
 }
 
 /* main content */
@@ -34,7 +39,7 @@ body {
   font-weight: 700;
   font-size: 45px;
   line-height: 55px;
-  color: #000000;
+  color: #34495e;
   margin: 0 0 28 0;
 }
 
@@ -43,7 +48,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
-  color: #000000;
+  color: #22313f;
 }
 
 .about-me-container {
@@ -81,7 +86,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   text-decoration-line: underline;
-  color: #780fa1;
+  color: #0661bb;
 }
 
 .main-content-title {
@@ -113,7 +118,7 @@ body {
 }
 
 .Work-Experience-company {
-  color: #780fa1;
+  color: #0661bb;
   margin: 0;
 }
 
@@ -157,7 +162,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  color: #780fa1;
+  color: #0661bb;
   margin: 18px 0 0 0;
 }
 
@@ -198,7 +203,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  color: #780fa1;
+  color: #0661bb;
   margin: 18px 0 0 0;
 }
 
@@ -227,23 +232,24 @@ body {
   font-size: 16px;
   line-height: 24px;
   text-decoration-line: underline;
-  color: #780fa1;
+  color: #0661bb;
   margin: 6px 0 0 0;
 }
 
 /* sidebar */
 .sidebar {
-  background: #e2e1e1;
+  background: #b5d9fc;
   width: 640px;
   left: 40px;
   top: 40px;
 }
 .my-photo {
   /* margin: 48; */
-  width: 354px;
+  /*width: 354px;*/
   /* height: 354px;*/
   left: 40px;
   top: 80px;
+  max-width: fit-content;
 }
 
 .contacts-block,
@@ -285,7 +291,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  color: #780fa1;
+  color: #0661bb;
 }
 
 /* tech-skills-list */
@@ -333,11 +339,11 @@ body {
   color: #000000;
 }
 .language-item {
-  color: #552568;
+  color: #0661bb;
 }
 .language-name {
   color: #0f131a;
 }
 .language-level {
-  color: #780fa1;
+  color: #0661bb;
 }

@@ -6,22 +6,28 @@ body {
     rgb(16, 37, 60) 51.2%,
     rgb(0, 0, 0) 98.6%
   );
-  padding: 40px;
+
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .wrapper {
+
   display: flex;
   flex-direction: row-reverse;
   background: #e4f1fe;
-  padding: 40px;
-  max-width: 1200px;
+  /*padding: 40px;*/
+  max-width: 1120px;
   margin: 0 auto;
-  box-shadow: 4px 8px 10px rgba(112, 205, 239, 0.7);
+  box-shadow: 0px -2px 19px 5px rgba(112, 205, 239, 0.6);
 }
 
 /* main content */
 .main-content {
-  padding: 48px;
+  padding: 20px;
 }
 
 /* About me */
@@ -238,14 +244,15 @@ body {
 
 /* sidebar */
 .sidebar {
+ position: -ms-page;
   background: #d8e1ea;
-  width: 640px;
+  width: 400px;
   left: 40px;
   top: 40px;
 }
 .my-photo {
   /* margin: 48; */
-  /*width: 354px;*/
+  width: 354px;
   /* height: 354px;*/
   left: 40px;
   top: 80px;
